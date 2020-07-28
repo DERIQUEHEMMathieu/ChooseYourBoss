@@ -90,196 +90,61 @@ textarea {
 *{
   margin: 0;
   padding: 0;
-  width: auto;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Mulish', sans-serif; 
 }
+
+body {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png");
+}
+/* End of General rules */
 
 /* Utility classes */
-.textColor {
-  color: black;
-}
-
-.textWeight {
-  font-weight: bolder;
-}
-
-.textSize {
-  font-size: smaller;
-}
-
-.marginText {
-  margin: 8px;
-}
-
-.textDecoration {
-  text-decoration: none;
-}
-
-.div-categoryContainer{
-  /* ~~ C'est grâce à cette partie que l'on peut changer de place le texte ~~ */    
-  display : flex;
-  width : 100%;
-  align-items: center;
-}
-  
-.picture-left {
-  padding :1em;
-  width : 20%;
-}
-    
-.paragraph-right {
-  margin : 1em 1em;
-}
-
-.Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  width: 22em;
-}
-
-.navTextType {
-  display: inline-block;
-  list-style-type: none;
-}
-
-.mainSectionType {
-  background-color: #e0ca3c;
-  display: block;
-  height: 10%;
-  margin: 8px;
-}
-
-.layout {
+.flex {
   display: flex;
-  flex-direction: column;
 }
 
-.mainTextType {
-  height: 30%;
-  display: flex;
-  align-items: flex-end; 
-  text-decoration: none;
+#nav {
+  display: none;
 }
-
-.SocialNetwork {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  margin-left: 50px;
-  padding: 8px 10px;
-}
-
-/* Header */
-header {
-  background-color: #bc6c25;
-  width: 100%;
-}
-/* End of Header */
+/* End of Utility classes */
 
 /* Nav */ 
 nav {
-  background-color: #F0F3BD ;
-  display: block;
+  position: relative;
+  justify-content: center;
+}
+
+nav div {
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+}
+
+nav .Logo {
+  margin-top: 1em;
 }
 /* End of Nav */
 
+/* Header */
+
+/* End of Header */
+
 /* Main */
-main {
-  background-color: #bc6c25; 
-}
+
 /* End of Main */
 
 /* Footer */
-footer {
-  background-color: #F0F3BD;
-  display: block;
-}
 
-footer div p {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 5px;
-}
 /* End of Footer */
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-  .div-categoryContainer{ 
-    display : flex;
-    width : 100%;
-    align-items: center;
-  }
 
-  .paragraph-right {
-    margin : 4em 9em;
-    font-size: large;
-  }
-
-  .textSize {
-    font-size: larger;
-  }
-
-  .Image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    width: 32em;
-  }
-
-  footer div img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .SocialNetwork {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    margin-left: 135px;
-    padding: 25px 15px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
-    .div-categoryContainer{ 
-      display : flex;
-      width : 100%;
-      align-items: center;
-    }
-  
-    .paragraph-right {
-      margin : 4em 13em;
-      font-size: x-large;
-    }
-  
-    .textSize {
-      font-size: x-large;
-    }
-  
-    .Image {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 10px;
-      width: 38em;
-    }
-  
-    footer div img {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .SocialNetwork {
-      width: 60px;
-      height: 60px;
-      display: inline-block;
-      margin-left: 315px;
-      padding: 25px 15px;
-    }
-  }
+
+  } 
 
 /* ==========================================================================
    Helper classes
