@@ -93,18 +93,53 @@ textarea {
   font-family: 'Mulish', sans-serif; 
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   background-image: url("https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png");
 }
-/* End of General rules */
 
-/* Utility classes */
 .flex {
   display: flex;
 }
 
-#nav {
+#secret {
   display: none;
+}
+/* End of General rules */
+
+/* Utility classes */
+.btn {
+  font-size: 1.5em;
+  font-family: 'Mulish', sans-serif;
+  background-color: #4d22ff;
+  color: #fff;
+  border-radius: 24px;
+  padding: 5px 20px;
+  border: none;
+  margin: 1.5em 0;
+}
+
+.headerNumbers {
+  background-color: #2b345d;
+}
+
+.algorithmWorksForYou {
+  background-color: rgba(179,161,237,.2);
+}
+
+.wrapOk {
+  flex-wrap: wrap;
+}
+
+.imgAlgorithmWidth {
+
+}
+
+.btnBigger {
+  margin: auto;
 }
 /* End of Utility classes */
 
@@ -112,9 +147,11 @@ body {
 nav {
   position: relative;
   justify-content: center;
+  border-bottom: 2px solid rgba(183, 178, 199,.3);
+  padding-bottom: 1em;
 }
 
-nav div {
+nav figure {
   position: absolute;
   top: 1.5em;
   left: 1.5em;
@@ -126,6 +163,23 @@ nav .Logo {
 /* End of Nav */
 
 /* Header */
+header section {
+  margin: 0 1em;
+}
+
+header section h1 {
+  font-size: 3em;
+  line-height: 95%;
+  margin-top: 1em;
+}
+
+header section p {
+  font-size: 1.5em;
+  text-align: left;
+  padding-top: 1.1em;
+}
+
+
 
 /* End of Header */
 
