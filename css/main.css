@@ -105,7 +105,7 @@ body {
   display: flex;
 }
 
-#secret {
+.secret {
   display: none;
 }
 
@@ -117,13 +117,24 @@ body {
 /* Utility classes */
 .btn {
   font-size: 1.5em;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', sans-serif 1.625em;
   background-color: #4d22ff;
   color: #fff;
-  border-radius: 24px;
-  padding: 5px 20px;
+  border-radius: 1.5em;
+  padding: 0.313em 1.563em;
+  margin: 0.625em 0;
   border: none;
-  margin: 1.5em 0;
+}
+
+.btnNav {
+  font-size: 1.2em;
+  font-family: 'Mulish', sans-serif 1.125em;
+  background-color: #4d22ff;
+  color: #fff;
+  border-radius: 1.5em;
+  /* margin: 0.625em 0; */
+  padding: 0.313em 1.563em;
+  border: none;
 }
 
 .fullSize {
@@ -138,14 +149,12 @@ body {
   background-color: rgba(179,161,237,.2);
 }
 
-.imgAlgorithmWidth {
+.imgAlgorithmSmallWidth {
   width: 55%;
 }
 
-.btnBigger {
-  margin: auto;
-  margin-top: 1em;
-  width: 90%;
+.imgSize {
+  width: 13.438em;
 }
 
 .textLeft {
@@ -213,6 +222,8 @@ main {
 
 main article {
   padding-bottom: 1em;
+  width: 80%;
+  margin: auto;
 }
 
 main article h1 {
@@ -255,7 +266,7 @@ footer article div {
     margin-top: 1em;
   }
   
-  .imgAlgorithmWidth {
+  .imgAlgorithmSmallWidth {
     width: 34%;
     margin: 1em;
   }
@@ -275,7 +286,7 @@ footer article div {
 }
 
 @media screen and (min-width: 1200px) {
-  #secret {
+  .secret {
     display: flex;
   }
 
@@ -313,7 +324,7 @@ footer article div {
     height: auto;
   }
 
-  .imgAlgorithmWidth {
+  .imgAlgorithmSmallWidth {
     width: 20%;
     margin: 1em;
   }
@@ -328,7 +339,7 @@ footer article div {
     margin-right: 5em;
   }
   } 
-
+/* End of Media Queries */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
