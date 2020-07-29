@@ -126,6 +126,10 @@ body {
   margin: 1.5em 0;
 }
 
+.fullSize {
+  width: 100%;
+}
+
 .headerNumbers {
   background-color: #2b345d;
 }
@@ -140,6 +144,16 @@ body {
 
 .btnBigger {
   margin: auto;
+  margin-top: 1em;
+  width: 90%;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.footerBackgroundColor {
+  background-color: #eee;
 }
 /* End of Utility classes */
 
@@ -163,40 +177,156 @@ nav .Logo {
 /* End of Nav */
 
 /* Header */
-header section {
+header article {
   margin: 0 1em;
 }
 
-header section h1 {
+header article section h1 {
   font-size: 3em;
   line-height: 95%;
   margin-top: 1em;
 }
 
-header section p {
+header article section p {
   font-size: 1.5em;
   text-align: left;
   padding-top: 1.1em;
 }
+
+header>div>div {
+  flex-direction: column;
+  align-items: center;
+  width: 34%;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+header div div {
+  color: #fff;
+}
 /* End of Header */
 
 /* Main */
+main {
+  text-align: center;
+}
 
+main article {
+  padding-bottom: 1em;
+}
+
+main article h1 {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+main article section {
+  justify-content: center;
+  align-items: center;
+}
+
+main article section figure figcaption {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+}
 /* End of Main */
 
 /* Footer */
-footer {
-  background-color: #eee;
+footer article {
+  margin: 1em;
+  padding: 1em;
+}
+
+footer article div {
+  flex-direction: column;
+  align-items: flex-start;
 }
 /* End of Footer */
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+  header div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+  }
 
+  header div div {
+    margin-top: 1em;
+  }
+  
+  .imgAlgorithmWidth {
+    width: 34%;
+    margin: 1em;
+  }
+  
+  .touchPad {
+    display: block;
+  }
+
+  footer article {
+    display: flex;
+    width: 40%;
+  }
+
+  footer article div {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  #secret {
+    display: flex;
+  }
 
+  nav {
+    justify-content: space-between;
+  }
+
+  nav figure {
+    display: none;
+  }
+
+  nav ul {
+    list-style: none;
+    justify-content: flex-end;
+    margin: 1em;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+  }
+
+  header article {
+    margin: 0 20%;
+    padding: 2em;
+  }
+
+  header section {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  header figure {
+    height: auto;
+  }
+
+  .imgAlgorithmWidth {
+    width: 20%;
+    margin: 1em;
+  }
+
+  footer article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  footer article aside {
+    width: 30%;
+    margin-right: 5em;
+  }
   } 
 
 /* ==========================================================================
