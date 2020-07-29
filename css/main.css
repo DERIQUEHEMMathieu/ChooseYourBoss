@@ -185,7 +185,9 @@ header section p {
 /* End of Main */
 
 /* Footer */
-
+footer {
+  background-color: #eee;
+}
 /* End of Footer */
 
 /* Media Queries */
