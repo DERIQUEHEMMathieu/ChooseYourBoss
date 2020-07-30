@@ -140,6 +140,26 @@ body {
   border: none;
 }
 
+.displayBar {
+  font-size: 1.5em;
+  font-family: 'Mulish', sans-serif 1.625em;
+  background-color: #4d22ff;
+  border: none;
+  width: 100%;
+}
+
+.displayBarText {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.positionBar {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  bottom: 0px;
+}
+
 .fullSize {
   width: 100%;
 }
@@ -170,6 +190,7 @@ body {
 
 .footerBackgroundColor {
   background-color: #eee;
+  width: auto;
 }
 
 /* End of Utility classes */
@@ -358,6 +379,10 @@ footer article div {
 @media screen and (min-width: 1200px) {
 .secret {
   display: flex;
+}
+
+.hiddenComputer{
+  display: none;
 }
 
 nav figure {
