@@ -3,110 +3,185 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TerreDeGeek</title>
-  <meta name="description" content="TerreDeGeek : Vente de produits électroniques (ordinateurs, smartphones et divers)">
-  <meta name="keywords" content="TerreDeGeek, vente, produits, électroniques, ordinateurs, smartphone, divers">
+  <title>ChooseYourBoss</title>
+  <meta name="description" content="ChooseYourBoss : Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil !">
+  <meta name="keywords" content="ChooseYourBoss, offres, emploi, informatique, numérique, matchent, profil">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="img/LogoTerreDeGeek.png">
-  <link rel="shortcut icon" href="img/IconTerreDeGeek.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/Icone.ico">
+  <link rel="shortcut icon" href="img/Icone.ico" type="image/x-icon">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@900&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
+<!-- Navigation tool -->
+<nav class="flex">
+<figure>
+    <img src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/icons/burger-menu.svg" alt="Menu burger">
+</figure>
+<aside>
+    <a href="index.html">
+        <img class="Logo" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/logos/logo-2019.svg" alt="ChooseYourBoss">
+    </a>
+</aside>
+<ul class="secret">
+    <li><a href="index.html">Offres</a></li>
+    <li><a href="index.html">Entreprises</a></li>
+    <li><a href="index.html">Salaires</a></li>
+    <li><a href="index.html">Évènements</a></li>
+    <li><a href="index.html">Blog</a></li>
+    <li><a href="index.html">Connexion</a></li>
+    <li><a class="btnNav" href="index.html">Inscription</a></li>
+    <li><a href="index.html">Vous êtes recruteur</a></li>
+</ul>
+</nav>
+<!-- End of Navigation tool-->
+
 <!-- Header -->
-<header> 
-<div class="div-categoryContainer">
-    <img src="img/LogoTerreDeGeek.png" alt="Logo TerreDeGeek" class="picture-left">
-        <div class="paragraph-right textColor">
-            <h1>TerreDeGeek</h1>
-            <h4>Vente de produits électroniques</h4>
-        </div>
+<header>
+<article class="flex">
+    <section>
+    <h1>Le matching parfait est aussi professionnel</h1>
+    <p class="textLeft">Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !</p>
+    <form action="index.html" method="GET">
+        <button class="btn" type="submit">Je m'inscris</button>
+    </form>
+    </section>
+<figure class="secret">
+    <img src="img/man.png" alt="Image d'un homme">
+</figure>
+</article>
+<div class="headerNumbers">
+    <div class="flex">
+        <h2>152 000</h2>
+        <p>Candidats</p>
+    </div>
+    <div class="flex">
+        <h2>473 000</h2>
+        <p>Rencontres</p>
+    </div>
+    <div class="flex">
+        <h2>13 300</h2>
+        <p>Recruteurs</p>
+    </div>
 </div>
 </header>
 <!-- End of Header -->
 
-<!-- Navigation tool -->
-<nav>
-    <ul>
-        <a href="products.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Produits</a> 
-        <a href="prestations.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Prestations</a>    
-        <a href="manufacture.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Entreprise</a>   
-        <a href="Form.html" target="blank" class="navTextType textColor textWeight textSize textDecoration marginText">Contactez-nous</a>
-    </ul>
-</nav>
-<!-- End of Navigation tool-->
-
 <!-- Main -->
 <main>
-    <br>
-    <section class="mainSectionType">
-        <a href="products.html" target="blank">
-        <img class="Image" src="img/computer.jpg" alt="Ordinateur">
-        </a>
-            <a href="products.html" target="blank" class="layout textColor textWeight textSize textDecoration marginText"> 
-            <p class="mainTextType">Ordinateur : 800 €</p>
-            <p class="mainTextType">Ordinateur de bureau, sortit en juillet 2020, disposant de la dernière technologie Intel Core i5.</p>
-            </a>
+<article class="algorithmWorksForYou">
+    <h2>L'algorithme travaille pour toi</h2>
+    <h3>Accède à des matchings personnalisés tout en restant protégé et anonyme</h3>
+    <section class="flex wrapOk">
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="img/matching1.png" alt="Personnalisation">
+            <figcaption> <!-- Affichage d'une légende sous une balise figure -->
+                <h3>Personnalisation</h3>
+                <p>Notre algorithme de matching sélectionne pour toi les projets qui te correspondent vraiment.</p>
+            </figcaption> 
+        </figure>
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="img/matching2.png" alt="3 en 1">
+            <figcaption>
+                <h3>3 en 1</h3>
+                <p>Tu as le pouvoir d'accepter les matchings, les demandes directes ou postuler directement aux offres qui te plaisent.</p>
+            </figcaption> 
+        </figure>
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="img/matching3.png" alt="Anonymat">
+            <figcaption>
+                <h3>Anonymat</h3>
+                <p>Ton profil reste protégé et anonyme jusqu'à ta mise en relation avec le recruteur de ton choix, évitant ainsi toute sur-sollicitation.</p>
+            </figcaption> 
+        </figure>
     </section>
-    <section class="mainSectionType">
-        <a href="products.html" target="blank">
-        <img class="Image" src="img/Smartphone.jpeg" alt="Téléphone portable">
-        </a>
-            <a href="products.html" target="blank" class="layout textColor textWeight textSize textDecoration marginText">
-            <p class="mainTextType">Smartphone : 500 €</p>
-            <p class="mainTextType">Smartphone Wiko, sortit en mai 2020. Il dispose de la nouvelle génération d'appareil photo.</p>
-            </a>
+    <form action="index.html" method="GET">
+        <button class="btn" type="submit">J'accède à mes matchings</button>
+    </form>
+</article>
+<article>
+    <h2>Tous les jobs informatiques et numériques</h2>
+    <p>Découvre les dernières offres d'emploi tech', produit, data, marketing et design</p>
+    <section class="flex wrapOk">
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/tech.svg" alt="Technologie">
+            <figcaption>
+                <h3>Tech</h3>
+            </figcaption>
+        </figure>
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/produit.svg" alt="Produit">
+            <figcaption>
+                <h3>Produit</h3>
+            </figcaption>
+        </figure>
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/marketing.svg" alt="Marketing">
+            <figcaption>
+                <h3>Marketing</h3>
+            </figcaption>
+        </figure>
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/DATA.svg" alt="Data">
+            <figcaption>
+                <h3>Data</h3>
+            </figcaption>
+        </figure>
+        <figure class="imgAlgorithmSmallWidth">
+            <img class="fullSize imgSize" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/design.svg" alt="Création">
+            <figcaption>
+                <h3>Création</h3>
+            </figcaption>
+        </figure>
     </section>
-    <section class="mainSectionType">
-        <a href="products.html" target="blank">
-        <img class="Image" src="img/Clavier.jpg" alt="Clavier">
-        </a>
-            <a href="products.html" target="blank" class="layout textColor textWeight textSize textDecoration marginText">
-            <p class="mainTextType">Clavier gamer : 120 €</p>
-            <p class="mainTextType">Clavier spécial gamer avec rétroéclairage pour vos parties nocturnes endiablées.</p>
-            </a>
-    </section>
-    <br>
+    <form action="index.html" method="GET">
+        <button class="btn" type="submit">Je découvre toutes les offres</button>
+    </form>
+</article>
 </main>
 <!-- End of Main -->
 
 <!-- Footer -->
 <footer>
-    <div class="SocialNetwork">
-        <a href="https://fr-fr.facebook.com/" target="blank" rel="noopener"><img src="img/facebookLogo.png" alt="Facebook"></a>
+<article class="textLeft footerBackgroundColor">
+    <div class="flex">
+        <h2>Mérites-tu un meilleur salaire ?</h2>
+        <h3>Baromètre des salaires IT</h3>
+        <p>Découvre le salaire des différents métiers informatiques et numériques par niveau d'expérience et localisation.</p>
+        <form action="index.html" method="GET">
+            <button class="btn" type="submit">Je découvre mon salaire</button>
+        </form>
     </div>
-    <div class="SocialNetwork">
-        <a href="https://twitter.com/explore" target="blank" rel="noopener"><img src="img/twitterLogo.png" alt="Twitter"></a>
-    </div>
-    <div class="SocialNetwork">
-        <a href="https://www.instagram.com/?hl=fr" target="blank" rel="noopener"><img src="img/instagramLogo.png" alt="Instagram"></a>
-    </div>
-    <div>
-    <p class="textColor textSize">Mentions légales : © Copyright july 20 by Mathieu</p>
-    </div>
+    <aside class="secret">
+        <figure>
+            <img class="fullSize" src="img/salaire.svg" alt="Salaire">
+        </figure>
+    </aside>
+</article>
 </footer>
 <!-- End of Footer -->
 
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

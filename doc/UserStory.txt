@@ -1,0 +1,40 @@
+Thomas, 25 ans, à la recherche d'un poste dans l'informatique, commence sa navigation sur le site "ChooseYourBoss". 
+
+Il arrive sur la page d'accueil du site et voit une barre de navigation contenant le logo du site ainsi que des liens de navigation et un 
+bouton "Inscription".
+
+Thomas, 25 ans, découvre la phrase d'accroche du site ("Le matching parfait est aussi professionnel") ainsi qu'un court descriptif de ce que propose 
+le site comme service ("Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !"). 
+Sous ce descriptif, il voit un bouton "Je m'inscris". Une photo représentant une personne heureuse d'être inscrite sur ce site est présente
+sur la droite du descriptif.
+
+Thomas, 25 ans, aperçoit en bas du header un bandeau coloré regroupant le nombre de candidats, de rencontres et de recruteurs.
+
+Thomas, 25 ans, découvre le main du site. Celui-çi est divisé en deux parties distinctes. Dans la première partie, Thomas découvre 
+un titre ("L'algorithme travaille pour toi") puis un sous-titre ("Accède à des matchings personnalisés tout en restant protégé et anonyme"). 
+Trois fonctions du site ("Personnalisation", "3 en 1 et "Anonymat") sont décrites à l'aide d'un titre, d'un court texte explicatif et d'une image colorée
+pour attirer l'oeil.
+
+Sous ces fonctions, au centre, un bouton "J'aacède à mes matchings" est présent. 
+
+La seconde partie décrit les difféérents domaines dans lesquels Thomas peut trouver un poste. Un titre est présent ("Tous les jobs 
+informatiques et numériques") ainsi qu'une phrase d'accroche ("Découvre les dernières offres d'emploi tech', produit, data, marketing et design").
+Cinq images sont présentes afin d'illustrer les cinq domaines ("Tech", "Produit", "Marketing", "Data" et "Creation").
+
+Un bouton "Je découvre toutes les offres" est présent en dessous.
+
+Thomas, 25 ans, découvre le footer du site. Il s'agit d'un encart coloré contenant un titre ("Mérites-tu un meilleur salaire ?"), 
+un sous-titre ("Baromètre des salaires IT") et d'une courte description ("Découvre le salaire des différents métiers informatiques et numériques 
+par niveau d'expérience et localisation.").
+Un bouton "Je découvre mon salaire" est situé en dessous de cette description. 
+Une image se situe à droite de ce texte dans l'encart.
+
+Thomas, 25 ans, se dit que le site est agréable à regarder avec ses images colorées, ses boutons arrondis et colorés ainsi que son écriture en taille de
+police assez élevée.
+
+
+
+
+
+
+
