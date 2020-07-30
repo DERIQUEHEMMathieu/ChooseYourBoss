@@ -119,6 +119,10 @@ body {
 /* End of General rules */
 
 /* Utility classes */
+.hiddenSmartphone {
+  display: none;
+}
+
 .btn {
   font-size: 1.5em;
   font-family: 'Mulish', sans-serif 1.625em;
@@ -350,6 +354,10 @@ footer article div {
 @media screen and (min-width: 768px) {
 .secret { 
   display: none;}
+
+.hiddenSmartphone {
+  display: flex;
+}
 
 header div {
   display: flex;
