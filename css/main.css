@@ -144,6 +144,10 @@ body {
   width: 100%;
 }
 
+.justifyCenter {
+  justify-content: center;
+}
+
 .headerNumbers {
   background-color: #2b345d;
 }
@@ -264,7 +268,6 @@ main article h3 {
 }
 
 main article section {
-  justify-content: center;
   align-items: center;
 }
 
