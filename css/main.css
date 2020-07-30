@@ -170,7 +170,6 @@ body {
 
 .footerBackgroundColor {
   background-color: #eee;
-  width: 50%;
 }
 
 /* End of Utility classes */
@@ -203,7 +202,7 @@ header article section h1 {
   font-size: 2.875em;
   line-height: 95%;
   margin-top: 1em;
-  width: 11em;
+  width: 100%;
 }
 
 header article section p {
