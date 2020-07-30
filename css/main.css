@@ -125,7 +125,7 @@ body {
 
 .btn {
   font-size: 1.5em;
-  font-family: 'Mulish', sans-serif 1.625em;
+  font-family: 'Mulish', sans-serif;
   background-color: #4d22ff;
   color: #fff;
   border-radius: 1.5em;
@@ -136,7 +136,7 @@ body {
 
 .btnNav {
   font-size: 1.2em;
-  font-family: 'Mulish', sans-serif 1.125em;
+  font-family: 'Mulish', sans-serif;
   background-color: #4d22ff;
   color: #fff;
   border-radius: 1.5em;
@@ -146,7 +146,7 @@ body {
 
 .displayBar {
   font-size: 1.5em;
-  font-family: 'Mulish', sans-serif 1.625em;
+  font-family: 'Mulish', sans-serif;
   background-color: #4d22ff;
   border: none;
   width: 100%;
@@ -450,8 +450,8 @@ footer article aside figure {
   margin: auto;
 }
 } 
-
 /* End of Media Queries */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
