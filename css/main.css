@@ -170,7 +170,6 @@ body {
 
 .footerBackgroundColor {
   background-color: #eee;
-  width: 50%;
 }
 
 /* End of Utility classes */
@@ -402,6 +401,10 @@ header figure {
 .imgAlgorithmSmallWidth {
   width: 15%;
   margin: 1em;
+}
+
+.footerBackgroundColor {
+  width: 50%;
 }
 
 footer article {
